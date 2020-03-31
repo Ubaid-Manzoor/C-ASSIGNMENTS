@@ -1,0 +1,2 @@
+/usr/bin/ar qc "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/lib/libgtest.a"  CMakeFiles/gtest.dir/src/gtest-all.cc.o
+/usr/bin/ranlib "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/lib/libgtest.a"

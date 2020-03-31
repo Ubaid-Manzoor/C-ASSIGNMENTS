@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/igg_image/image.h
+vector
+-
+
+../src/igg_image/io_tools.h
+fstream
+-
+string
+-
+vector
+-
+
+/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/src/main.cpp
+iostream
+-
+image.h
+-
+io_tools.h
+-
+stdio.h
+-
+string
+-
+vector
+-
+
