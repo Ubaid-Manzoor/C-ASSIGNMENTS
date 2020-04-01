@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image"
+CMAKE_SOURCE_DIR = "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build"
+CMAKE_BINARY_DIR = "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build"
 
 # Include any dependencies generated for this target.
 include gtest/CMakeFiles/gtest.dir/depend.make
@@ -59,16 +59,16 @@ include gtest/CMakeFiles/gtest.dir/flags.make
 
 gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o: gtest/CMakeFiles/gtest.dir/flags.make
 gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o: /usr/src/gtest/src/gtest-all.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/gtest" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /usr/src/gtest/src/gtest-all.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/gtest" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /usr/src/gtest/src/gtest-all.cc
 
 gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtest.dir/src/gtest-all.cc.i"
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/gtest" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /usr/src/gtest/src/gtest-all.cc > CMakeFiles/gtest.dir/src/gtest-all.cc.i
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/gtest" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /usr/src/gtest/src/gtest-all.cc > CMakeFiles/gtest.dir/src/gtest-all.cc.i
 
 gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtest.dir/src/gtest-all.cc.s"
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/gtest" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /usr/src/gtest/src/gtest-all.cc -o CMakeFiles/gtest.dir/src/gtest-all.cc.s
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/gtest" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /usr/src/gtest/src/gtest-all.cc -o CMakeFiles/gtest.dir/src/gtest-all.cc.s
 
 gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o.requires:
 
@@ -88,15 +88,15 @@ gtest_OBJECTS = \
 # External object files for target gtest
 gtest_EXTERNAL_OBJECTS =
 
-/home/ubaid/Desktop/MyDrive/Computer\ Science/Programming\ Languages/Modern\ C++\ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/lib/libgtest.a: gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
-/home/ubaid/Desktop/MyDrive/Computer\ Science/Programming\ Languages/Modern\ C++\ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/lib/libgtest.a: gtest/CMakeFiles/gtest.dir/build.make
-/home/ubaid/Desktop/MyDrive/Computer\ Science/Programming\ Languages/Modern\ C++\ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/lib/libgtest.a: gtest/CMakeFiles/gtest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library \"/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/lib/libgtest.a\""
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/gtest" && $(CMAKE_COMMAND) -P CMakeFiles/gtest.dir/cmake_clean_target.cmake
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/gtest" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gtest.dir/link.txt --verbose=$(VERBOSE)
+/home/ubaid/Desktop/MyDrive/Computer\ Science/Programming\ Languages/Modern\ C++\ 2018/c++_projects/HomeWorks/2_igg_image/lib/libgtest.a: gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+/home/ubaid/Desktop/MyDrive/Computer\ Science/Programming\ Languages/Modern\ C++\ 2018/c++_projects/HomeWorks/2_igg_image/lib/libgtest.a: gtest/CMakeFiles/gtest.dir/build.make
+/home/ubaid/Desktop/MyDrive/Computer\ Science/Programming\ Languages/Modern\ C++\ 2018/c++_projects/HomeWorks/2_igg_image/lib/libgtest.a: gtest/CMakeFiles/gtest.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library \"/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/lib/libgtest.a\""
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/gtest" && $(CMAKE_COMMAND) -P CMakeFiles/gtest.dir/cmake_clean_target.cmake
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/gtest" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gtest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-gtest/CMakeFiles/gtest.dir/build: /home/ubaid/Desktop/MyDrive/Computer\ Science/Programming\ Languages/Modern\ C++\ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/lib/libgtest.a
+gtest/CMakeFiles/gtest.dir/build: /home/ubaid/Desktop/MyDrive/Computer\ Science/Programming\ Languages/Modern\ C++\ 2018/c++_projects/HomeWorks/2_igg_image/lib/libgtest.a
 
 .PHONY : gtest/CMakeFiles/gtest.dir/build
 
@@ -105,10 +105,10 @@ gtest/CMakeFiles/gtest.dir/requires: gtest/CMakeFiles/gtest.dir/src/gtest-all.cc
 .PHONY : gtest/CMakeFiles/gtest.dir/requires
 
 gtest/CMakeFiles/gtest.dir/clean:
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/gtest" && $(CMAKE_COMMAND) -P CMakeFiles/gtest.dir/cmake_clean.cmake
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/gtest" && $(CMAKE_COMMAND) -P CMakeFiles/gtest.dir/cmake_clean.cmake
 .PHONY : gtest/CMakeFiles/gtest.dir/clean
 
 gtest/CMakeFiles/gtest.dir/depend:
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image" /usr/src/gtest "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/gtest" "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/gtest/CMakeFiles/gtest.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image" /usr/src/gtest "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/gtest" "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/gtest/CMakeFiles/gtest.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : gtest/CMakeFiles/gtest.dir/depend
 

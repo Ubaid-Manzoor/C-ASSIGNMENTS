@@ -17,14 +17,14 @@ using igg::io_tools::ReadFromPgm;
 
 int main(){
     Image img(4,5);
-
-    string filename{"/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/data/lena.ascii.pgm"};
+    
+    string filename{"/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/data/lena.ascii.pgm"};
     img.FillFromPgm(filename);
 
     // cout<<img.at(0,1)<<endl;
-    img.UpScale(2);
+    img.DownScale(2);
     img.DisplayDetails();
-    string filename1{"/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/data/lena1.ascii.pgm"};
+    string filename1{"/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/data/lena1.ascii.pgm"};
     img.WriteToPgm(filename1);
     // vector< vector<float> > Hist = img.ComputeHistogram(10);
     return 0;

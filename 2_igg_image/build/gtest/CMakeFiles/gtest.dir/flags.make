@@ -6,5 +6,5 @@ CXX_FLAGS = -Wall -Wextra -fPIC -O3   -Wall -Wextra -fPIC -Wall -Wshadow -DGTEST
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/src" -I"/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/src/igg_image" -I/usr/src/gtest/include -I/usr/src/gtest 
+CXX_INCLUDES = -I"/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/src" -I"/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/src/igg_image" -I/usr/src/gtest/include -I/usr/src/gtest 
 

@@ -128,5 +128,31 @@ void igg::Image::UpScale(int scale) {
         }
     }
 
+
     data_ = scaledImage;
+}
+
+void igg::Image::DownScale(int scale){
+    int rowsAfterScale = int(rows_ / scale);
+    int colsAfterScale = int(cols_ / scale);
+
+    vector <int> scaledImage;
+    scaledImage.resize(rowsAfterScale * colsAfterScale);
+
+    for(int row = 0 ; row < rowsAfterScale ; ++row ){
+        for(int col = 0 ; col < colsAfterScale ; ++col){
+            int originalImageRowNo = row * scale;
+            int originalImageColNo = col * scale;
+
+            int originalImagePosition = igg::Image::positionFromCoordinates(cols_,originalImageRowNo,originalImageColNo);
+            int scaledImagePosition = igg::Image::positionFromCoordinates(colsAfterScale,row,col);
+
+            scaledImage[scaledImagePosition] = data_[originalImagePosition];
+        }
+    }
+
+    data_ = scaledImage;
+
+    /// Temporary fix of error
+    data_.resize(512 * 512);
 }

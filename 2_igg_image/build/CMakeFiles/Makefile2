@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image"
+CMAKE_SOURCE_DIR = "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build"
+CMAKE_BINARY_DIR = "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build"
 
 #=============================================================================
 # Directory level rules for directory src
@@ -86,7 +86,7 @@ src/preinstall: src/igg_image/preinstall
 src/CMakeFiles/main.dir/all: src/igg_image/CMakeFiles/image.dir/all
 	$(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/depend
 	$(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" --progress-num=7,8 "Built target main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" --progress-num=7,8 "Built target main"
 .PHONY : src/CMakeFiles/main.dir/all
 
 # Include target in all.
@@ -96,9 +96,9 @@ all: src/CMakeFiles/main.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 4
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 4
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 0
 .PHONY : src/CMakeFiles/main.dir/rule
 
 # Convenience name for target.
@@ -141,7 +141,7 @@ src/igg_image/preinstall:
 src/igg_image/CMakeFiles/image.dir/all:
 	$(MAKE) -f src/igg_image/CMakeFiles/image.dir/build.make src/igg_image/CMakeFiles/image.dir/depend
 	$(MAKE) -f src/igg_image/CMakeFiles/image.dir/build.make src/igg_image/CMakeFiles/image.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" --progress-num=5,6 "Built target image"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" --progress-num=5,6 "Built target image"
 .PHONY : src/igg_image/CMakeFiles/image.dir/all
 
 # Include target in all.
@@ -151,9 +151,9 @@ all: src/igg_image/CMakeFiles/image.dir/all
 
 # Build rule for subdir invocation for target.
 src/igg_image/CMakeFiles/image.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 2
 	$(MAKE) -f CMakeFiles/Makefile2 src/igg_image/CMakeFiles/image.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 0
 .PHONY : src/igg_image/CMakeFiles/image.dir/rule
 
 # Convenience name for target.
@@ -224,14 +224,14 @@ tests/preinstall: gtest/preinstall
 tests/CMakeFiles/ContinuousSubmit.dir/all:
 	$(MAKE) -f tests/CMakeFiles/ContinuousSubmit.dir/build.make tests/CMakeFiles/ContinuousSubmit.dir/depend
 	$(MAKE) -f tests/CMakeFiles/ContinuousSubmit.dir/build.make tests/CMakeFiles/ContinuousSubmit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" --progress-num= "Built target ContinuousSubmit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" --progress-num= "Built target ContinuousSubmit"
 .PHONY : tests/CMakeFiles/ContinuousSubmit.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/ContinuousSubmit.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/ContinuousSubmit.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 0
 .PHONY : tests/CMakeFiles/ContinuousSubmit.dir/rule
 
 # Convenience name for target.
@@ -256,14 +256,14 @@ clean: tests/CMakeFiles/ContinuousSubmit.dir/clean
 tests/CMakeFiles/ContinuousMemCheck.dir/all:
 	$(MAKE) -f tests/CMakeFiles/ContinuousMemCheck.dir/build.make tests/CMakeFiles/ContinuousMemCheck.dir/depend
 	$(MAKE) -f tests/CMakeFiles/ContinuousMemCheck.dir/build.make tests/CMakeFiles/ContinuousMemCheck.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" --progress-num= "Built target ContinuousMemCheck"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" --progress-num= "Built target ContinuousMemCheck"
 .PHONY : tests/CMakeFiles/ContinuousMemCheck.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/ContinuousMemCheck.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/ContinuousMemCheck.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 0
 .PHONY : tests/CMakeFiles/ContinuousMemCheck.dir/rule
 
 # Convenience name for target.
@@ -288,14 +288,14 @@ clean: tests/CMakeFiles/ContinuousMemCheck.dir/clean
 tests/CMakeFiles/ContinuousConfigure.dir/all:
 	$(MAKE) -f tests/CMakeFiles/ContinuousConfigure.dir/build.make tests/CMakeFiles/ContinuousConfigure.dir/depend
 	$(MAKE) -f tests/CMakeFiles/ContinuousConfigure.dir/build.make tests/CMakeFiles/ContinuousConfigure.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" --progress-num= "Built target ContinuousConfigure"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" --progress-num= "Built target ContinuousConfigure"
 .PHONY : tests/CMakeFiles/ContinuousConfigure.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/ContinuousConfigure.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/ContinuousConfigure.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 0
 .PHONY : tests/CMakeFiles/ContinuousConfigure.dir/rule
 
 # Convenience name for target.
@@ -320,14 +320,14 @@ clean: tests/CMakeFiles/ContinuousConfigure.dir/clean
 tests/CMakeFiles/ExperimentalSubmit.dir/all:
 	$(MAKE) -f tests/CMakeFiles/ExperimentalSubmit.dir/build.make tests/CMakeFiles/ExperimentalSubmit.dir/depend
 	$(MAKE) -f tests/CMakeFiles/ExperimentalSubmit.dir/build.make tests/CMakeFiles/ExperimentalSubmit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" --progress-num= "Built target ExperimentalSubmit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" --progress-num= "Built target ExperimentalSubmit"
 .PHONY : tests/CMakeFiles/ExperimentalSubmit.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/ExperimentalSubmit.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/ExperimentalSubmit.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 0
 .PHONY : tests/CMakeFiles/ExperimentalSubmit.dir/rule
 
 # Convenience name for target.
@@ -352,14 +352,14 @@ clean: tests/CMakeFiles/ExperimentalSubmit.dir/clean
 tests/CMakeFiles/ExperimentalMemCheck.dir/all:
 	$(MAKE) -f tests/CMakeFiles/ExperimentalMemCheck.dir/build.make tests/CMakeFiles/ExperimentalMemCheck.dir/depend
 	$(MAKE) -f tests/CMakeFiles/ExperimentalMemCheck.dir/build.make tests/CMakeFiles/ExperimentalMemCheck.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" --progress-num= "Built target ExperimentalMemCheck"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" --progress-num= "Built target ExperimentalMemCheck"
 .PHONY : tests/CMakeFiles/ExperimentalMemCheck.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/ExperimentalMemCheck.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/ExperimentalMemCheck.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 0
 .PHONY : tests/CMakeFiles/ExperimentalMemCheck.dir/rule
 
 # Convenience name for target.
@@ -384,14 +384,14 @@ clean: tests/CMakeFiles/ExperimentalMemCheck.dir/clean
 tests/CMakeFiles/ExperimentalTest.dir/all:
 	$(MAKE) -f tests/CMakeFiles/ExperimentalTest.dir/build.make tests/CMakeFiles/ExperimentalTest.dir/depend
 	$(MAKE) -f tests/CMakeFiles/ExperimentalTest.dir/build.make tests/CMakeFiles/ExperimentalTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" --progress-num= "Built target ExperimentalTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" --progress-num= "Built target ExperimentalTest"
 .PHONY : tests/CMakeFiles/ExperimentalTest.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/ExperimentalTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/ExperimentalTest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 0
 .PHONY : tests/CMakeFiles/ExperimentalTest.dir/rule
 
 # Convenience name for target.
@@ -416,14 +416,14 @@ clean: tests/CMakeFiles/ExperimentalTest.dir/clean
 tests/CMakeFiles/NightlyUpdate.dir/all:
 	$(MAKE) -f tests/CMakeFiles/NightlyUpdate.dir/build.make tests/CMakeFiles/NightlyUpdate.dir/depend
 	$(MAKE) -f tests/CMakeFiles/NightlyUpdate.dir/build.make tests/CMakeFiles/NightlyUpdate.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" --progress-num= "Built target NightlyUpdate"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" --progress-num= "Built target NightlyUpdate"
 .PHONY : tests/CMakeFiles/NightlyUpdate.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/NightlyUpdate.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/NightlyUpdate.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 0
 .PHONY : tests/CMakeFiles/NightlyUpdate.dir/rule
 
 # Convenience name for target.
@@ -448,14 +448,14 @@ clean: tests/CMakeFiles/NightlyUpdate.dir/clean
 tests/CMakeFiles/NightlyStart.dir/all:
 	$(MAKE) -f tests/CMakeFiles/NightlyStart.dir/build.make tests/CMakeFiles/NightlyStart.dir/depend
 	$(MAKE) -f tests/CMakeFiles/NightlyStart.dir/build.make tests/CMakeFiles/NightlyStart.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" --progress-num= "Built target NightlyStart"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" --progress-num= "Built target NightlyStart"
 .PHONY : tests/CMakeFiles/NightlyStart.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/NightlyStart.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/NightlyStart.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 0
 .PHONY : tests/CMakeFiles/NightlyStart.dir/rule
 
 # Convenience name for target.
@@ -480,14 +480,14 @@ clean: tests/CMakeFiles/NightlyStart.dir/clean
 tests/CMakeFiles/NightlyMemoryCheck.dir/all:
 	$(MAKE) -f tests/CMakeFiles/NightlyMemoryCheck.dir/build.make tests/CMakeFiles/NightlyMemoryCheck.dir/depend
 	$(MAKE) -f tests/CMakeFiles/NightlyMemoryCheck.dir/build.make tests/CMakeFiles/NightlyMemoryCheck.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" --progress-num= "Built target NightlyMemoryCheck"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" --progress-num= "Built target NightlyMemoryCheck"
 .PHONY : tests/CMakeFiles/NightlyMemoryCheck.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/NightlyMemoryCheck.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/NightlyMemoryCheck.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 0
 .PHONY : tests/CMakeFiles/NightlyMemoryCheck.dir/rule
 
 # Convenience name for target.
@@ -512,14 +512,14 @@ clean: tests/CMakeFiles/NightlyMemoryCheck.dir/clean
 tests/CMakeFiles/NightlyBuild.dir/all:
 	$(MAKE) -f tests/CMakeFiles/NightlyBuild.dir/build.make tests/CMakeFiles/NightlyBuild.dir/depend
 	$(MAKE) -f tests/CMakeFiles/NightlyBuild.dir/build.make tests/CMakeFiles/NightlyBuild.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" --progress-num= "Built target NightlyBuild"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" --progress-num= "Built target NightlyBuild"
 .PHONY : tests/CMakeFiles/NightlyBuild.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/NightlyBuild.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/NightlyBuild.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 0
 .PHONY : tests/CMakeFiles/NightlyBuild.dir/rule
 
 # Convenience name for target.
@@ -544,14 +544,14 @@ clean: tests/CMakeFiles/NightlyBuild.dir/clean
 tests/CMakeFiles/ExperimentalUpdate.dir/all:
 	$(MAKE) -f tests/CMakeFiles/ExperimentalUpdate.dir/build.make tests/CMakeFiles/ExperimentalUpdate.dir/depend
 	$(MAKE) -f tests/CMakeFiles/ExperimentalUpdate.dir/build.make tests/CMakeFiles/ExperimentalUpdate.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" --progress-num= "Built target ExperimentalUpdate"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" --progress-num= "Built target ExperimentalUpdate"
 .PHONY : tests/CMakeFiles/ExperimentalUpdate.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/ExperimentalUpdate.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/ExperimentalUpdate.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 0
 .PHONY : tests/CMakeFiles/ExperimentalUpdate.dir/rule
 
 # Convenience name for target.
@@ -576,14 +576,14 @@ clean: tests/CMakeFiles/ExperimentalUpdate.dir/clean
 tests/CMakeFiles/ContinuousBuild.dir/all:
 	$(MAKE) -f tests/CMakeFiles/ContinuousBuild.dir/build.make tests/CMakeFiles/ContinuousBuild.dir/depend
 	$(MAKE) -f tests/CMakeFiles/ContinuousBuild.dir/build.make tests/CMakeFiles/ContinuousBuild.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" --progress-num= "Built target ContinuousBuild"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" --progress-num= "Built target ContinuousBuild"
 .PHONY : tests/CMakeFiles/ContinuousBuild.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/ContinuousBuild.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/ContinuousBuild.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 0
 .PHONY : tests/CMakeFiles/ContinuousBuild.dir/rule
 
 # Convenience name for target.
@@ -608,14 +608,14 @@ clean: tests/CMakeFiles/ContinuousBuild.dir/clean
 tests/CMakeFiles/Continuous.dir/all:
 	$(MAKE) -f tests/CMakeFiles/Continuous.dir/build.make tests/CMakeFiles/Continuous.dir/depend
 	$(MAKE) -f tests/CMakeFiles/Continuous.dir/build.make tests/CMakeFiles/Continuous.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" --progress-num= "Built target Continuous"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" --progress-num= "Built target Continuous"
 .PHONY : tests/CMakeFiles/Continuous.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/Continuous.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/Continuous.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 0
 .PHONY : tests/CMakeFiles/Continuous.dir/rule
 
 # Convenience name for target.
@@ -640,14 +640,14 @@ clean: tests/CMakeFiles/Continuous.dir/clean
 tests/CMakeFiles/Experimental.dir/all:
 	$(MAKE) -f tests/CMakeFiles/Experimental.dir/build.make tests/CMakeFiles/Experimental.dir/depend
 	$(MAKE) -f tests/CMakeFiles/Experimental.dir/build.make tests/CMakeFiles/Experimental.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" --progress-num= "Built target Experimental"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" --progress-num= "Built target Experimental"
 .PHONY : tests/CMakeFiles/Experimental.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/Experimental.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/Experimental.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 0
 .PHONY : tests/CMakeFiles/Experimental.dir/rule
 
 # Convenience name for target.
@@ -672,14 +672,14 @@ clean: tests/CMakeFiles/Experimental.dir/clean
 tests/CMakeFiles/ExperimentalConfigure.dir/all:
 	$(MAKE) -f tests/CMakeFiles/ExperimentalConfigure.dir/build.make tests/CMakeFiles/ExperimentalConfigure.dir/depend
 	$(MAKE) -f tests/CMakeFiles/ExperimentalConfigure.dir/build.make tests/CMakeFiles/ExperimentalConfigure.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" --progress-num= "Built target ExperimentalConfigure"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" --progress-num= "Built target ExperimentalConfigure"
 .PHONY : tests/CMakeFiles/ExperimentalConfigure.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/ExperimentalConfigure.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/ExperimentalConfigure.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 0
 .PHONY : tests/CMakeFiles/ExperimentalConfigure.dir/rule
 
 # Convenience name for target.
@@ -704,14 +704,14 @@ clean: tests/CMakeFiles/ExperimentalConfigure.dir/clean
 tests/CMakeFiles/NightlyTest.dir/all:
 	$(MAKE) -f tests/CMakeFiles/NightlyTest.dir/build.make tests/CMakeFiles/NightlyTest.dir/depend
 	$(MAKE) -f tests/CMakeFiles/NightlyTest.dir/build.make tests/CMakeFiles/NightlyTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" --progress-num= "Built target NightlyTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" --progress-num= "Built target NightlyTest"
 .PHONY : tests/CMakeFiles/NightlyTest.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/NightlyTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/NightlyTest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 0
 .PHONY : tests/CMakeFiles/NightlyTest.dir/rule
 
 # Convenience name for target.
@@ -736,14 +736,14 @@ clean: tests/CMakeFiles/NightlyTest.dir/clean
 tests/CMakeFiles/NightlyCoverage.dir/all:
 	$(MAKE) -f tests/CMakeFiles/NightlyCoverage.dir/build.make tests/CMakeFiles/NightlyCoverage.dir/depend
 	$(MAKE) -f tests/CMakeFiles/NightlyCoverage.dir/build.make tests/CMakeFiles/NightlyCoverage.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" --progress-num= "Built target NightlyCoverage"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" --progress-num= "Built target NightlyCoverage"
 .PHONY : tests/CMakeFiles/NightlyCoverage.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/NightlyCoverage.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/NightlyCoverage.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 0
 .PHONY : tests/CMakeFiles/NightlyCoverage.dir/rule
 
 # Convenience name for target.
@@ -768,14 +768,14 @@ clean: tests/CMakeFiles/NightlyCoverage.dir/clean
 tests/CMakeFiles/ExperimentalCoverage.dir/all:
 	$(MAKE) -f tests/CMakeFiles/ExperimentalCoverage.dir/build.make tests/CMakeFiles/ExperimentalCoverage.dir/depend
 	$(MAKE) -f tests/CMakeFiles/ExperimentalCoverage.dir/build.make tests/CMakeFiles/ExperimentalCoverage.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" --progress-num= "Built target ExperimentalCoverage"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" --progress-num= "Built target ExperimentalCoverage"
 .PHONY : tests/CMakeFiles/ExperimentalCoverage.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/ExperimentalCoverage.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/ExperimentalCoverage.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 0
 .PHONY : tests/CMakeFiles/ExperimentalCoverage.dir/rule
 
 # Convenience name for target.
@@ -800,14 +800,14 @@ clean: tests/CMakeFiles/ExperimentalCoverage.dir/clean
 tests/CMakeFiles/NightlyMemCheck.dir/all:
 	$(MAKE) -f tests/CMakeFiles/NightlyMemCheck.dir/build.make tests/CMakeFiles/NightlyMemCheck.dir/depend
 	$(MAKE) -f tests/CMakeFiles/NightlyMemCheck.dir/build.make tests/CMakeFiles/NightlyMemCheck.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" --progress-num= "Built target NightlyMemCheck"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" --progress-num= "Built target NightlyMemCheck"
 .PHONY : tests/CMakeFiles/NightlyMemCheck.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/NightlyMemCheck.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/NightlyMemCheck.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 0
 .PHONY : tests/CMakeFiles/NightlyMemCheck.dir/rule
 
 # Convenience name for target.
@@ -832,14 +832,14 @@ clean: tests/CMakeFiles/NightlyMemCheck.dir/clean
 tests/CMakeFiles/ContinuousStart.dir/all:
 	$(MAKE) -f tests/CMakeFiles/ContinuousStart.dir/build.make tests/CMakeFiles/ContinuousStart.dir/depend
 	$(MAKE) -f tests/CMakeFiles/ContinuousStart.dir/build.make tests/CMakeFiles/ContinuousStart.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" --progress-num= "Built target ContinuousStart"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" --progress-num= "Built target ContinuousStart"
 .PHONY : tests/CMakeFiles/ContinuousStart.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/ContinuousStart.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/ContinuousStart.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 0
 .PHONY : tests/CMakeFiles/ContinuousStart.dir/rule
 
 # Convenience name for target.
@@ -864,14 +864,14 @@ clean: tests/CMakeFiles/ContinuousStart.dir/clean
 tests/CMakeFiles/NightlySubmit.dir/all:
 	$(MAKE) -f tests/CMakeFiles/NightlySubmit.dir/build.make tests/CMakeFiles/NightlySubmit.dir/depend
 	$(MAKE) -f tests/CMakeFiles/NightlySubmit.dir/build.make tests/CMakeFiles/NightlySubmit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" --progress-num= "Built target NightlySubmit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" --progress-num= "Built target NightlySubmit"
 .PHONY : tests/CMakeFiles/NightlySubmit.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/NightlySubmit.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/NightlySubmit.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 0
 .PHONY : tests/CMakeFiles/NightlySubmit.dir/rule
 
 # Convenience name for target.
@@ -896,14 +896,14 @@ clean: tests/CMakeFiles/NightlySubmit.dir/clean
 tests/CMakeFiles/ContinuousCoverage.dir/all:
 	$(MAKE) -f tests/CMakeFiles/ContinuousCoverage.dir/build.make tests/CMakeFiles/ContinuousCoverage.dir/depend
 	$(MAKE) -f tests/CMakeFiles/ContinuousCoverage.dir/build.make tests/CMakeFiles/ContinuousCoverage.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" --progress-num= "Built target ContinuousCoverage"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" --progress-num= "Built target ContinuousCoverage"
 .PHONY : tests/CMakeFiles/ContinuousCoverage.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/ContinuousCoverage.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/ContinuousCoverage.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 0
 .PHONY : tests/CMakeFiles/ContinuousCoverage.dir/rule
 
 # Convenience name for target.
@@ -928,14 +928,14 @@ clean: tests/CMakeFiles/ContinuousCoverage.dir/clean
 tests/CMakeFiles/Nightly.dir/all:
 	$(MAKE) -f tests/CMakeFiles/Nightly.dir/build.make tests/CMakeFiles/Nightly.dir/depend
 	$(MAKE) -f tests/CMakeFiles/Nightly.dir/build.make tests/CMakeFiles/Nightly.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" --progress-num= "Built target Nightly"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" --progress-num= "Built target Nightly"
 .PHONY : tests/CMakeFiles/Nightly.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/Nightly.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/Nightly.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 0
 .PHONY : tests/CMakeFiles/Nightly.dir/rule
 
 # Convenience name for target.
@@ -960,14 +960,14 @@ clean: tests/CMakeFiles/Nightly.dir/clean
 tests/CMakeFiles/NightlyConfigure.dir/all:
 	$(MAKE) -f tests/CMakeFiles/NightlyConfigure.dir/build.make tests/CMakeFiles/NightlyConfigure.dir/depend
 	$(MAKE) -f tests/CMakeFiles/NightlyConfigure.dir/build.make tests/CMakeFiles/NightlyConfigure.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" --progress-num= "Built target NightlyConfigure"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" --progress-num= "Built target NightlyConfigure"
 .PHONY : tests/CMakeFiles/NightlyConfigure.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/NightlyConfigure.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/NightlyConfigure.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 0
 .PHONY : tests/CMakeFiles/NightlyConfigure.dir/rule
 
 # Convenience name for target.
@@ -992,14 +992,14 @@ clean: tests/CMakeFiles/NightlyConfigure.dir/clean
 tests/CMakeFiles/ExperimentalStart.dir/all:
 	$(MAKE) -f tests/CMakeFiles/ExperimentalStart.dir/build.make tests/CMakeFiles/ExperimentalStart.dir/depend
 	$(MAKE) -f tests/CMakeFiles/ExperimentalStart.dir/build.make tests/CMakeFiles/ExperimentalStart.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" --progress-num= "Built target ExperimentalStart"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" --progress-num= "Built target ExperimentalStart"
 .PHONY : tests/CMakeFiles/ExperimentalStart.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/ExperimentalStart.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/ExperimentalStart.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 0
 .PHONY : tests/CMakeFiles/ExperimentalStart.dir/rule
 
 # Convenience name for target.
@@ -1024,14 +1024,14 @@ clean: tests/CMakeFiles/ExperimentalStart.dir/clean
 tests/CMakeFiles/ContinuousTest.dir/all:
 	$(MAKE) -f tests/CMakeFiles/ContinuousTest.dir/build.make tests/CMakeFiles/ContinuousTest.dir/depend
 	$(MAKE) -f tests/CMakeFiles/ContinuousTest.dir/build.make tests/CMakeFiles/ContinuousTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" --progress-num= "Built target ContinuousTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" --progress-num= "Built target ContinuousTest"
 .PHONY : tests/CMakeFiles/ContinuousTest.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/ContinuousTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/ContinuousTest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 0
 .PHONY : tests/CMakeFiles/ContinuousTest.dir/rule
 
 # Convenience name for target.
@@ -1056,14 +1056,14 @@ clean: tests/CMakeFiles/ContinuousTest.dir/clean
 tests/CMakeFiles/ContinuousUpdate.dir/all:
 	$(MAKE) -f tests/CMakeFiles/ContinuousUpdate.dir/build.make tests/CMakeFiles/ContinuousUpdate.dir/depend
 	$(MAKE) -f tests/CMakeFiles/ContinuousUpdate.dir/build.make tests/CMakeFiles/ContinuousUpdate.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" --progress-num= "Built target ContinuousUpdate"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" --progress-num= "Built target ContinuousUpdate"
 .PHONY : tests/CMakeFiles/ContinuousUpdate.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/ContinuousUpdate.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/ContinuousUpdate.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 0
 .PHONY : tests/CMakeFiles/ContinuousUpdate.dir/rule
 
 # Convenience name for target.
@@ -1088,14 +1088,14 @@ clean: tests/CMakeFiles/ContinuousUpdate.dir/clean
 tests/CMakeFiles/ExperimentalBuild.dir/all:
 	$(MAKE) -f tests/CMakeFiles/ExperimentalBuild.dir/build.make tests/CMakeFiles/ExperimentalBuild.dir/depend
 	$(MAKE) -f tests/CMakeFiles/ExperimentalBuild.dir/build.make tests/CMakeFiles/ExperimentalBuild.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" --progress-num= "Built target ExperimentalBuild"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" --progress-num= "Built target ExperimentalBuild"
 .PHONY : tests/CMakeFiles/ExperimentalBuild.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/ExperimentalBuild.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 0
 	$(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/ExperimentalBuild.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 0
 .PHONY : tests/CMakeFiles/ExperimentalBuild.dir/rule
 
 # Convenience name for target.
@@ -1140,7 +1140,7 @@ gtest/preinstall:
 gtest/CMakeFiles/gtest_main.dir/all: gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" --progress-num=3,4 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" --progress-num=3,4 "Built target gtest_main"
 .PHONY : gtest/CMakeFiles/gtest_main.dir/all
 
 # Include target in all.
@@ -1150,9 +1150,9 @@ all: gtest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
 gtest/CMakeFiles/gtest_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 4
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 4
 	$(MAKE) -f CMakeFiles/Makefile2 gtest/CMakeFiles/gtest_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 0
 .PHONY : gtest/CMakeFiles/gtest_main.dir/rule
 
 # Convenience name for target.
@@ -1177,7 +1177,7 @@ clean: gtest/CMakeFiles/gtest_main.dir/clean
 gtest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" --progress-num=1,2 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" --progress-num=1,2 "Built target gtest"
 .PHONY : gtest/CMakeFiles/gtest.dir/all
 
 # Include target in all.
@@ -1187,9 +1187,9 @@ all: gtest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
 gtest/CMakeFiles/gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 2
 	$(MAKE) -f CMakeFiles/Makefile2 gtest/CMakeFiles/gtest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 0
 .PHONY : gtest/CMakeFiles/gtest.dir/rule
 
 # Convenience name for target.

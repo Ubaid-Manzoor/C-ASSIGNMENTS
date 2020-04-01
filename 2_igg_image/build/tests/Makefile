@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image"
+CMAKE_SOURCE_DIR = "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build"
+CMAKE_BINARY_DIR = "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/tests/CMakeFiles/progress.marks"
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build/CMakeFiles" 0
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/tests/CMakeFiles/progress.marks"
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/clean
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/preinstall
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/preinstall
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tests/CMakeFiles/ContinuousSubmit.dir/rule:
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/ContinuousSubmit.dir/rule
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/ContinuousSubmit.dir/rule
 .PHONY : tests/CMakeFiles/ContinuousSubmit.dir/rule
 
 # Convenience name for target.
@@ -179,12 +179,12 @@ ContinuousSubmit: tests/CMakeFiles/ContinuousSubmit.dir/rule
 
 # fast build rule for target.
 ContinuousSubmit/fast:
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" && $(MAKE) -f tests/CMakeFiles/ContinuousSubmit.dir/build.make tests/CMakeFiles/ContinuousSubmit.dir/build
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" && $(MAKE) -f tests/CMakeFiles/ContinuousSubmit.dir/build.make tests/CMakeFiles/ContinuousSubmit.dir/build
 .PHONY : ContinuousSubmit/fast
 
 # Convenience name for target.
 tests/CMakeFiles/ContinuousMemCheck.dir/rule:
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/ContinuousMemCheck.dir/rule
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/ContinuousMemCheck.dir/rule
 .PHONY : tests/CMakeFiles/ContinuousMemCheck.dir/rule
 
 # Convenience name for target.
@@ -194,12 +194,12 @@ ContinuousMemCheck: tests/CMakeFiles/ContinuousMemCheck.dir/rule
 
 # fast build rule for target.
 ContinuousMemCheck/fast:
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" && $(MAKE) -f tests/CMakeFiles/ContinuousMemCheck.dir/build.make tests/CMakeFiles/ContinuousMemCheck.dir/build
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" && $(MAKE) -f tests/CMakeFiles/ContinuousMemCheck.dir/build.make tests/CMakeFiles/ContinuousMemCheck.dir/build
 .PHONY : ContinuousMemCheck/fast
 
 # Convenience name for target.
 tests/CMakeFiles/ContinuousConfigure.dir/rule:
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/ContinuousConfigure.dir/rule
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/ContinuousConfigure.dir/rule
 .PHONY : tests/CMakeFiles/ContinuousConfigure.dir/rule
 
 # Convenience name for target.
@@ -209,12 +209,12 @@ ContinuousConfigure: tests/CMakeFiles/ContinuousConfigure.dir/rule
 
 # fast build rule for target.
 ContinuousConfigure/fast:
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" && $(MAKE) -f tests/CMakeFiles/ContinuousConfigure.dir/build.make tests/CMakeFiles/ContinuousConfigure.dir/build
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" && $(MAKE) -f tests/CMakeFiles/ContinuousConfigure.dir/build.make tests/CMakeFiles/ContinuousConfigure.dir/build
 .PHONY : ContinuousConfigure/fast
 
 # Convenience name for target.
 tests/CMakeFiles/ExperimentalSubmit.dir/rule:
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/ExperimentalSubmit.dir/rule
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/ExperimentalSubmit.dir/rule
 .PHONY : tests/CMakeFiles/ExperimentalSubmit.dir/rule
 
 # Convenience name for target.
@@ -224,12 +224,12 @@ ExperimentalSubmit: tests/CMakeFiles/ExperimentalSubmit.dir/rule
 
 # fast build rule for target.
 ExperimentalSubmit/fast:
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" && $(MAKE) -f tests/CMakeFiles/ExperimentalSubmit.dir/build.make tests/CMakeFiles/ExperimentalSubmit.dir/build
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" && $(MAKE) -f tests/CMakeFiles/ExperimentalSubmit.dir/build.make tests/CMakeFiles/ExperimentalSubmit.dir/build
 .PHONY : ExperimentalSubmit/fast
 
 # Convenience name for target.
 tests/CMakeFiles/ExperimentalMemCheck.dir/rule:
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/ExperimentalMemCheck.dir/rule
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/ExperimentalMemCheck.dir/rule
 .PHONY : tests/CMakeFiles/ExperimentalMemCheck.dir/rule
 
 # Convenience name for target.
@@ -239,12 +239,12 @@ ExperimentalMemCheck: tests/CMakeFiles/ExperimentalMemCheck.dir/rule
 
 # fast build rule for target.
 ExperimentalMemCheck/fast:
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" && $(MAKE) -f tests/CMakeFiles/ExperimentalMemCheck.dir/build.make tests/CMakeFiles/ExperimentalMemCheck.dir/build
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" && $(MAKE) -f tests/CMakeFiles/ExperimentalMemCheck.dir/build.make tests/CMakeFiles/ExperimentalMemCheck.dir/build
 .PHONY : ExperimentalMemCheck/fast
 
 # Convenience name for target.
 tests/CMakeFiles/ExperimentalTest.dir/rule:
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/ExperimentalTest.dir/rule
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/ExperimentalTest.dir/rule
 .PHONY : tests/CMakeFiles/ExperimentalTest.dir/rule
 
 # Convenience name for target.
@@ -254,12 +254,12 @@ ExperimentalTest: tests/CMakeFiles/ExperimentalTest.dir/rule
 
 # fast build rule for target.
 ExperimentalTest/fast:
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" && $(MAKE) -f tests/CMakeFiles/ExperimentalTest.dir/build.make tests/CMakeFiles/ExperimentalTest.dir/build
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" && $(MAKE) -f tests/CMakeFiles/ExperimentalTest.dir/build.make tests/CMakeFiles/ExperimentalTest.dir/build
 .PHONY : ExperimentalTest/fast
 
 # Convenience name for target.
 tests/CMakeFiles/NightlyUpdate.dir/rule:
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/NightlyUpdate.dir/rule
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/NightlyUpdate.dir/rule
 .PHONY : tests/CMakeFiles/NightlyUpdate.dir/rule
 
 # Convenience name for target.
@@ -269,12 +269,12 @@ NightlyUpdate: tests/CMakeFiles/NightlyUpdate.dir/rule
 
 # fast build rule for target.
 NightlyUpdate/fast:
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" && $(MAKE) -f tests/CMakeFiles/NightlyUpdate.dir/build.make tests/CMakeFiles/NightlyUpdate.dir/build
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" && $(MAKE) -f tests/CMakeFiles/NightlyUpdate.dir/build.make tests/CMakeFiles/NightlyUpdate.dir/build
 .PHONY : NightlyUpdate/fast
 
 # Convenience name for target.
 tests/CMakeFiles/NightlyStart.dir/rule:
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/NightlyStart.dir/rule
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/NightlyStart.dir/rule
 .PHONY : tests/CMakeFiles/NightlyStart.dir/rule
 
 # Convenience name for target.
@@ -284,12 +284,12 @@ NightlyStart: tests/CMakeFiles/NightlyStart.dir/rule
 
 # fast build rule for target.
 NightlyStart/fast:
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" && $(MAKE) -f tests/CMakeFiles/NightlyStart.dir/build.make tests/CMakeFiles/NightlyStart.dir/build
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" && $(MAKE) -f tests/CMakeFiles/NightlyStart.dir/build.make tests/CMakeFiles/NightlyStart.dir/build
 .PHONY : NightlyStart/fast
 
 # Convenience name for target.
 tests/CMakeFiles/NightlyMemoryCheck.dir/rule:
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/NightlyMemoryCheck.dir/rule
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/NightlyMemoryCheck.dir/rule
 .PHONY : tests/CMakeFiles/NightlyMemoryCheck.dir/rule
 
 # Convenience name for target.
@@ -299,12 +299,12 @@ NightlyMemoryCheck: tests/CMakeFiles/NightlyMemoryCheck.dir/rule
 
 # fast build rule for target.
 NightlyMemoryCheck/fast:
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" && $(MAKE) -f tests/CMakeFiles/NightlyMemoryCheck.dir/build.make tests/CMakeFiles/NightlyMemoryCheck.dir/build
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" && $(MAKE) -f tests/CMakeFiles/NightlyMemoryCheck.dir/build.make tests/CMakeFiles/NightlyMemoryCheck.dir/build
 .PHONY : NightlyMemoryCheck/fast
 
 # Convenience name for target.
 tests/CMakeFiles/NightlyBuild.dir/rule:
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/NightlyBuild.dir/rule
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/NightlyBuild.dir/rule
 .PHONY : tests/CMakeFiles/NightlyBuild.dir/rule
 
 # Convenience name for target.
@@ -314,12 +314,12 @@ NightlyBuild: tests/CMakeFiles/NightlyBuild.dir/rule
 
 # fast build rule for target.
 NightlyBuild/fast:
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" && $(MAKE) -f tests/CMakeFiles/NightlyBuild.dir/build.make tests/CMakeFiles/NightlyBuild.dir/build
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" && $(MAKE) -f tests/CMakeFiles/NightlyBuild.dir/build.make tests/CMakeFiles/NightlyBuild.dir/build
 .PHONY : NightlyBuild/fast
 
 # Convenience name for target.
 tests/CMakeFiles/ExperimentalUpdate.dir/rule:
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/ExperimentalUpdate.dir/rule
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/ExperimentalUpdate.dir/rule
 .PHONY : tests/CMakeFiles/ExperimentalUpdate.dir/rule
 
 # Convenience name for target.
@@ -329,12 +329,12 @@ ExperimentalUpdate: tests/CMakeFiles/ExperimentalUpdate.dir/rule
 
 # fast build rule for target.
 ExperimentalUpdate/fast:
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" && $(MAKE) -f tests/CMakeFiles/ExperimentalUpdate.dir/build.make tests/CMakeFiles/ExperimentalUpdate.dir/build
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" && $(MAKE) -f tests/CMakeFiles/ExperimentalUpdate.dir/build.make tests/CMakeFiles/ExperimentalUpdate.dir/build
 .PHONY : ExperimentalUpdate/fast
 
 # Convenience name for target.
 tests/CMakeFiles/ContinuousBuild.dir/rule:
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/ContinuousBuild.dir/rule
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/ContinuousBuild.dir/rule
 .PHONY : tests/CMakeFiles/ContinuousBuild.dir/rule
 
 # Convenience name for target.
@@ -344,12 +344,12 @@ ContinuousBuild: tests/CMakeFiles/ContinuousBuild.dir/rule
 
 # fast build rule for target.
 ContinuousBuild/fast:
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" && $(MAKE) -f tests/CMakeFiles/ContinuousBuild.dir/build.make tests/CMakeFiles/ContinuousBuild.dir/build
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" && $(MAKE) -f tests/CMakeFiles/ContinuousBuild.dir/build.make tests/CMakeFiles/ContinuousBuild.dir/build
 .PHONY : ContinuousBuild/fast
 
 # Convenience name for target.
 tests/CMakeFiles/Continuous.dir/rule:
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/Continuous.dir/rule
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/Continuous.dir/rule
 .PHONY : tests/CMakeFiles/Continuous.dir/rule
 
 # Convenience name for target.
@@ -359,12 +359,12 @@ Continuous: tests/CMakeFiles/Continuous.dir/rule
 
 # fast build rule for target.
 Continuous/fast:
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" && $(MAKE) -f tests/CMakeFiles/Continuous.dir/build.make tests/CMakeFiles/Continuous.dir/build
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" && $(MAKE) -f tests/CMakeFiles/Continuous.dir/build.make tests/CMakeFiles/Continuous.dir/build
 .PHONY : Continuous/fast
 
 # Convenience name for target.
 tests/CMakeFiles/Experimental.dir/rule:
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/Experimental.dir/rule
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/Experimental.dir/rule
 .PHONY : tests/CMakeFiles/Experimental.dir/rule
 
 # Convenience name for target.
@@ -374,12 +374,12 @@ Experimental: tests/CMakeFiles/Experimental.dir/rule
 
 # fast build rule for target.
 Experimental/fast:
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" && $(MAKE) -f tests/CMakeFiles/Experimental.dir/build.make tests/CMakeFiles/Experimental.dir/build
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" && $(MAKE) -f tests/CMakeFiles/Experimental.dir/build.make tests/CMakeFiles/Experimental.dir/build
 .PHONY : Experimental/fast
 
 # Convenience name for target.
 tests/CMakeFiles/ExperimentalConfigure.dir/rule:
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/ExperimentalConfigure.dir/rule
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/ExperimentalConfigure.dir/rule
 .PHONY : tests/CMakeFiles/ExperimentalConfigure.dir/rule
 
 # Convenience name for target.
@@ -389,12 +389,12 @@ ExperimentalConfigure: tests/CMakeFiles/ExperimentalConfigure.dir/rule
 
 # fast build rule for target.
 ExperimentalConfigure/fast:
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" && $(MAKE) -f tests/CMakeFiles/ExperimentalConfigure.dir/build.make tests/CMakeFiles/ExperimentalConfigure.dir/build
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" && $(MAKE) -f tests/CMakeFiles/ExperimentalConfigure.dir/build.make tests/CMakeFiles/ExperimentalConfigure.dir/build
 .PHONY : ExperimentalConfigure/fast
 
 # Convenience name for target.
 tests/CMakeFiles/NightlyTest.dir/rule:
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/NightlyTest.dir/rule
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/NightlyTest.dir/rule
 .PHONY : tests/CMakeFiles/NightlyTest.dir/rule
 
 # Convenience name for target.
@@ -404,12 +404,12 @@ NightlyTest: tests/CMakeFiles/NightlyTest.dir/rule
 
 # fast build rule for target.
 NightlyTest/fast:
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" && $(MAKE) -f tests/CMakeFiles/NightlyTest.dir/build.make tests/CMakeFiles/NightlyTest.dir/build
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" && $(MAKE) -f tests/CMakeFiles/NightlyTest.dir/build.make tests/CMakeFiles/NightlyTest.dir/build
 .PHONY : NightlyTest/fast
 
 # Convenience name for target.
 tests/CMakeFiles/NightlyCoverage.dir/rule:
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/NightlyCoverage.dir/rule
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/NightlyCoverage.dir/rule
 .PHONY : tests/CMakeFiles/NightlyCoverage.dir/rule
 
 # Convenience name for target.
@@ -419,12 +419,12 @@ NightlyCoverage: tests/CMakeFiles/NightlyCoverage.dir/rule
 
 # fast build rule for target.
 NightlyCoverage/fast:
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" && $(MAKE) -f tests/CMakeFiles/NightlyCoverage.dir/build.make tests/CMakeFiles/NightlyCoverage.dir/build
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" && $(MAKE) -f tests/CMakeFiles/NightlyCoverage.dir/build.make tests/CMakeFiles/NightlyCoverage.dir/build
 .PHONY : NightlyCoverage/fast
 
 # Convenience name for target.
 tests/CMakeFiles/ExperimentalCoverage.dir/rule:
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/ExperimentalCoverage.dir/rule
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/ExperimentalCoverage.dir/rule
 .PHONY : tests/CMakeFiles/ExperimentalCoverage.dir/rule
 
 # Convenience name for target.
@@ -434,12 +434,12 @@ ExperimentalCoverage: tests/CMakeFiles/ExperimentalCoverage.dir/rule
 
 # fast build rule for target.
 ExperimentalCoverage/fast:
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" && $(MAKE) -f tests/CMakeFiles/ExperimentalCoverage.dir/build.make tests/CMakeFiles/ExperimentalCoverage.dir/build
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" && $(MAKE) -f tests/CMakeFiles/ExperimentalCoverage.dir/build.make tests/CMakeFiles/ExperimentalCoverage.dir/build
 .PHONY : ExperimentalCoverage/fast
 
 # Convenience name for target.
 tests/CMakeFiles/NightlyMemCheck.dir/rule:
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/NightlyMemCheck.dir/rule
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/NightlyMemCheck.dir/rule
 .PHONY : tests/CMakeFiles/NightlyMemCheck.dir/rule
 
 # Convenience name for target.
@@ -449,12 +449,12 @@ NightlyMemCheck: tests/CMakeFiles/NightlyMemCheck.dir/rule
 
 # fast build rule for target.
 NightlyMemCheck/fast:
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" && $(MAKE) -f tests/CMakeFiles/NightlyMemCheck.dir/build.make tests/CMakeFiles/NightlyMemCheck.dir/build
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" && $(MAKE) -f tests/CMakeFiles/NightlyMemCheck.dir/build.make tests/CMakeFiles/NightlyMemCheck.dir/build
 .PHONY : NightlyMemCheck/fast
 
 # Convenience name for target.
 tests/CMakeFiles/ContinuousStart.dir/rule:
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/ContinuousStart.dir/rule
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/ContinuousStart.dir/rule
 .PHONY : tests/CMakeFiles/ContinuousStart.dir/rule
 
 # Convenience name for target.
@@ -464,12 +464,12 @@ ContinuousStart: tests/CMakeFiles/ContinuousStart.dir/rule
 
 # fast build rule for target.
 ContinuousStart/fast:
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" && $(MAKE) -f tests/CMakeFiles/ContinuousStart.dir/build.make tests/CMakeFiles/ContinuousStart.dir/build
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" && $(MAKE) -f tests/CMakeFiles/ContinuousStart.dir/build.make tests/CMakeFiles/ContinuousStart.dir/build
 .PHONY : ContinuousStart/fast
 
 # Convenience name for target.
 tests/CMakeFiles/NightlySubmit.dir/rule:
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/NightlySubmit.dir/rule
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/NightlySubmit.dir/rule
 .PHONY : tests/CMakeFiles/NightlySubmit.dir/rule
 
 # Convenience name for target.
@@ -479,12 +479,12 @@ NightlySubmit: tests/CMakeFiles/NightlySubmit.dir/rule
 
 # fast build rule for target.
 NightlySubmit/fast:
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" && $(MAKE) -f tests/CMakeFiles/NightlySubmit.dir/build.make tests/CMakeFiles/NightlySubmit.dir/build
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" && $(MAKE) -f tests/CMakeFiles/NightlySubmit.dir/build.make tests/CMakeFiles/NightlySubmit.dir/build
 .PHONY : NightlySubmit/fast
 
 # Convenience name for target.
 tests/CMakeFiles/ContinuousCoverage.dir/rule:
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/ContinuousCoverage.dir/rule
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/ContinuousCoverage.dir/rule
 .PHONY : tests/CMakeFiles/ContinuousCoverage.dir/rule
 
 # Convenience name for target.
@@ -494,12 +494,12 @@ ContinuousCoverage: tests/CMakeFiles/ContinuousCoverage.dir/rule
 
 # fast build rule for target.
 ContinuousCoverage/fast:
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" && $(MAKE) -f tests/CMakeFiles/ContinuousCoverage.dir/build.make tests/CMakeFiles/ContinuousCoverage.dir/build
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" && $(MAKE) -f tests/CMakeFiles/ContinuousCoverage.dir/build.make tests/CMakeFiles/ContinuousCoverage.dir/build
 .PHONY : ContinuousCoverage/fast
 
 # Convenience name for target.
 tests/CMakeFiles/Nightly.dir/rule:
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/Nightly.dir/rule
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/Nightly.dir/rule
 .PHONY : tests/CMakeFiles/Nightly.dir/rule
 
 # Convenience name for target.
@@ -509,12 +509,12 @@ Nightly: tests/CMakeFiles/Nightly.dir/rule
 
 # fast build rule for target.
 Nightly/fast:
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" && $(MAKE) -f tests/CMakeFiles/Nightly.dir/build.make tests/CMakeFiles/Nightly.dir/build
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" && $(MAKE) -f tests/CMakeFiles/Nightly.dir/build.make tests/CMakeFiles/Nightly.dir/build
 .PHONY : Nightly/fast
 
 # Convenience name for target.
 tests/CMakeFiles/NightlyConfigure.dir/rule:
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/NightlyConfigure.dir/rule
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/NightlyConfigure.dir/rule
 .PHONY : tests/CMakeFiles/NightlyConfigure.dir/rule
 
 # Convenience name for target.
@@ -524,12 +524,12 @@ NightlyConfigure: tests/CMakeFiles/NightlyConfigure.dir/rule
 
 # fast build rule for target.
 NightlyConfigure/fast:
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" && $(MAKE) -f tests/CMakeFiles/NightlyConfigure.dir/build.make tests/CMakeFiles/NightlyConfigure.dir/build
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" && $(MAKE) -f tests/CMakeFiles/NightlyConfigure.dir/build.make tests/CMakeFiles/NightlyConfigure.dir/build
 .PHONY : NightlyConfigure/fast
 
 # Convenience name for target.
 tests/CMakeFiles/ExperimentalStart.dir/rule:
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/ExperimentalStart.dir/rule
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/ExperimentalStart.dir/rule
 .PHONY : tests/CMakeFiles/ExperimentalStart.dir/rule
 
 # Convenience name for target.
@@ -539,12 +539,12 @@ ExperimentalStart: tests/CMakeFiles/ExperimentalStart.dir/rule
 
 # fast build rule for target.
 ExperimentalStart/fast:
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" && $(MAKE) -f tests/CMakeFiles/ExperimentalStart.dir/build.make tests/CMakeFiles/ExperimentalStart.dir/build
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" && $(MAKE) -f tests/CMakeFiles/ExperimentalStart.dir/build.make tests/CMakeFiles/ExperimentalStart.dir/build
 .PHONY : ExperimentalStart/fast
 
 # Convenience name for target.
 tests/CMakeFiles/ContinuousTest.dir/rule:
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/ContinuousTest.dir/rule
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/ContinuousTest.dir/rule
 .PHONY : tests/CMakeFiles/ContinuousTest.dir/rule
 
 # Convenience name for target.
@@ -554,12 +554,12 @@ ContinuousTest: tests/CMakeFiles/ContinuousTest.dir/rule
 
 # fast build rule for target.
 ContinuousTest/fast:
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" && $(MAKE) -f tests/CMakeFiles/ContinuousTest.dir/build.make tests/CMakeFiles/ContinuousTest.dir/build
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" && $(MAKE) -f tests/CMakeFiles/ContinuousTest.dir/build.make tests/CMakeFiles/ContinuousTest.dir/build
 .PHONY : ContinuousTest/fast
 
 # Convenience name for target.
 tests/CMakeFiles/ContinuousUpdate.dir/rule:
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/ContinuousUpdate.dir/rule
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/ContinuousUpdate.dir/rule
 .PHONY : tests/CMakeFiles/ContinuousUpdate.dir/rule
 
 # Convenience name for target.
@@ -569,12 +569,12 @@ ContinuousUpdate: tests/CMakeFiles/ContinuousUpdate.dir/rule
 
 # fast build rule for target.
 ContinuousUpdate/fast:
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" && $(MAKE) -f tests/CMakeFiles/ContinuousUpdate.dir/build.make tests/CMakeFiles/ContinuousUpdate.dir/build
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" && $(MAKE) -f tests/CMakeFiles/ContinuousUpdate.dir/build.make tests/CMakeFiles/ContinuousUpdate.dir/build
 .PHONY : ContinuousUpdate/fast
 
 # Convenience name for target.
 tests/CMakeFiles/ExperimentalBuild.dir/rule:
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/ExperimentalBuild.dir/rule
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/ExperimentalBuild.dir/rule
 .PHONY : tests/CMakeFiles/ExperimentalBuild.dir/rule
 
 # Convenience name for target.
@@ -584,7 +584,7 @@ ExperimentalBuild: tests/CMakeFiles/ExperimentalBuild.dir/rule
 
 # fast build rule for target.
 ExperimentalBuild/fast:
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" && $(MAKE) -f tests/CMakeFiles/ExperimentalBuild.dir/build.make tests/CMakeFiles/ExperimentalBuild.dir/build
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" && $(MAKE) -f tests/CMakeFiles/ExperimentalBuild.dir/build.make tests/CMakeFiles/ExperimentalBuild.dir/build
 .PHONY : ExperimentalBuild/fast
 
 # Help Target
@@ -639,6 +639,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/igg_image_0/igg_image/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/2_igg_image/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

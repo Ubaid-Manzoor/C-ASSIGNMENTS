@@ -31,7 +31,6 @@ class Image {
   int positionFromCoordinates(int width,int row,int col) const;
 
   // Rescaling Functions
-
   void DownScale(int scale);
   void UpScale(int scale);
  
