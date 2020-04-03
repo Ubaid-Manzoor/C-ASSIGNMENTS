@@ -25,11 +25,14 @@ bool PngIoStrategy::Write(const std::string& file_name,
 }
 
 ImageData PngIoStrategy::Read(const std::string& file_name) const {
+  std::cout<<"HERE : "<<file_name<<std::endl;
   png::image<png::rgb_pixel> image(file_name);
+  std::cout<<"PROBLEM IS HERE"<<std::endl;
   ImageData image_data;
   image_data.max_val = 255;
   image_data.cols = image.get_width();
   image_data.rows = image.get_height();
+  std::cout<<"IN FUNCTION : "<<image_data.cols<<std::endl;
   std::vector<int> red(image_data.rows * image_data.cols, 0);
   std::vector<int> green(image_data.rows * image_data.cols, 0);
   std::vector<int> blue(image_data.rows * image_data.cols, 0);

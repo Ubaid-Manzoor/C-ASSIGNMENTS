@@ -91,6 +91,9 @@ main_EXTERNAL_OBJECTS =
 ../bin/main: src/CMakeFiles/main.dir/main.cpp.o
 ../bin/main: src/CMakeFiles/main.dir/build.make
 ../bin/main: ../lib/libimage.a
+../bin/main: ../lib/libstrategies.a
+../bin/main: /usr/lib/x86_64-linux-gnu/libpng.so
+../bin/main: /usr/lib/x86_64-linux-gnu/libz.so
 ../bin/main: src/CMakeFiles/main.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/3-igg_image/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/main"
 	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/3-igg_image/build/src" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)

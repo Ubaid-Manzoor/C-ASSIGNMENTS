@@ -15,6 +15,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/3-igg_image/build/src/igg_image/io_strategies/CMakeFiles/strategies.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

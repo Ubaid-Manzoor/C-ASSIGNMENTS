@@ -23,8 +23,10 @@ class Image {
 
   // TODO: fill public interface.
   // Image();
-  Image(const IoStrategy&);
-  Image(int rows, int cols, const IoStrategy&);
+  Image(const igg::IoStrategy&);
+  Image(int rows, int cols, const igg::IoStrategy&);
+  ~Image();
+
 
   // Getter Functions
   int rows() const;
@@ -37,6 +39,9 @@ class Image {
   // Read and Write Functions
   bool ReadFromDisk(const string& file_name);
   void WriteToDisk(const string& file_name);
+
+  std::vector<Pixel> convertToVectorOfPixels(std::vector< std::vector<int> >);
+  std::vector< std::vector<int> >  convertToVectorsOfRGB(std::vector<Pixel>);
 
 
  private:
