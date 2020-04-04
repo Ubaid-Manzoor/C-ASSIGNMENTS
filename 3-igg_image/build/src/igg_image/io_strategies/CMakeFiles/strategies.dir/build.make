@@ -105,19 +105,45 @@ src/igg_image/io_strategies/CMakeFiles/strategies.dir/dummy_strategy.cpp.o.provi
 src/igg_image/io_strategies/CMakeFiles/strategies.dir/dummy_strategy.cpp.o.provides.build: src/igg_image/io_strategies/CMakeFiles/strategies.dir/dummy_strategy.cpp.o
 
 
+src/igg_image/io_strategies/CMakeFiles/strategies.dir/ppm_strategy.cpp.o: src/igg_image/io_strategies/CMakeFiles/strategies.dir/flags.make
+src/igg_image/io_strategies/CMakeFiles/strategies.dir/ppm_strategy.cpp.o: ../src/igg_image/io_strategies/ppm_strategy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/3-igg_image/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/igg_image/io_strategies/CMakeFiles/strategies.dir/ppm_strategy.cpp.o"
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/3-igg_image/build/src/igg_image/io_strategies" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/strategies.dir/ppm_strategy.cpp.o -c "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/3-igg_image/src/igg_image/io_strategies/ppm_strategy.cpp"
+
+src/igg_image/io_strategies/CMakeFiles/strategies.dir/ppm_strategy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/strategies.dir/ppm_strategy.cpp.i"
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/3-igg_image/build/src/igg_image/io_strategies" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/3-igg_image/src/igg_image/io_strategies/ppm_strategy.cpp" > CMakeFiles/strategies.dir/ppm_strategy.cpp.i
+
+src/igg_image/io_strategies/CMakeFiles/strategies.dir/ppm_strategy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/strategies.dir/ppm_strategy.cpp.s"
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/3-igg_image/build/src/igg_image/io_strategies" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/3-igg_image/src/igg_image/io_strategies/ppm_strategy.cpp" -o CMakeFiles/strategies.dir/ppm_strategy.cpp.s
+
+src/igg_image/io_strategies/CMakeFiles/strategies.dir/ppm_strategy.cpp.o.requires:
+
+.PHONY : src/igg_image/io_strategies/CMakeFiles/strategies.dir/ppm_strategy.cpp.o.requires
+
+src/igg_image/io_strategies/CMakeFiles/strategies.dir/ppm_strategy.cpp.o.provides: src/igg_image/io_strategies/CMakeFiles/strategies.dir/ppm_strategy.cpp.o.requires
+	$(MAKE) -f src/igg_image/io_strategies/CMakeFiles/strategies.dir/build.make src/igg_image/io_strategies/CMakeFiles/strategies.dir/ppm_strategy.cpp.o.provides.build
+.PHONY : src/igg_image/io_strategies/CMakeFiles/strategies.dir/ppm_strategy.cpp.o.provides
+
+src/igg_image/io_strategies/CMakeFiles/strategies.dir/ppm_strategy.cpp.o.provides.build: src/igg_image/io_strategies/CMakeFiles/strategies.dir/ppm_strategy.cpp.o
+
+
 # Object files for target strategies
 strategies_OBJECTS = \
 "CMakeFiles/strategies.dir/png_strategy.cpp.o" \
-"CMakeFiles/strategies.dir/dummy_strategy.cpp.o"
+"CMakeFiles/strategies.dir/dummy_strategy.cpp.o" \
+"CMakeFiles/strategies.dir/ppm_strategy.cpp.o"
 
 # External object files for target strategies
 strategies_EXTERNAL_OBJECTS =
 
 ../lib/libstrategies.a: src/igg_image/io_strategies/CMakeFiles/strategies.dir/png_strategy.cpp.o
 ../lib/libstrategies.a: src/igg_image/io_strategies/CMakeFiles/strategies.dir/dummy_strategy.cpp.o
+../lib/libstrategies.a: src/igg_image/io_strategies/CMakeFiles/strategies.dir/ppm_strategy.cpp.o
 ../lib/libstrategies.a: src/igg_image/io_strategies/CMakeFiles/strategies.dir/build.make
 ../lib/libstrategies.a: src/igg_image/io_strategies/CMakeFiles/strategies.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/3-igg_image/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library ../../../../lib/libstrategies.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/3-igg_image/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library ../../../../lib/libstrategies.a"
 	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/3-igg_image/build/src/igg_image/io_strategies" && $(CMAKE_COMMAND) -P CMakeFiles/strategies.dir/cmake_clean_target.cmake
 	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/3-igg_image/build/src/igg_image/io_strategies" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/strategies.dir/link.txt --verbose=$(VERBOSE)
 
@@ -128,6 +154,7 @@ src/igg_image/io_strategies/CMakeFiles/strategies.dir/build: ../lib/libstrategie
 
 src/igg_image/io_strategies/CMakeFiles/strategies.dir/requires: src/igg_image/io_strategies/CMakeFiles/strategies.dir/png_strategy.cpp.o.requires
 src/igg_image/io_strategies/CMakeFiles/strategies.dir/requires: src/igg_image/io_strategies/CMakeFiles/strategies.dir/dummy_strategy.cpp.o.requires
+src/igg_image/io_strategies/CMakeFiles/strategies.dir/requires: src/igg_image/io_strategies/CMakeFiles/strategies.dir/ppm_strategy.cpp.o.requires
 
 .PHONY : src/igg_image/io_strategies/CMakeFiles/strategies.dir/requires
 

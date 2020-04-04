@@ -25,9 +25,7 @@ bool PngIoStrategy::Write(const std::string& file_name,
 }
 
 ImageData PngIoStrategy::Read(const std::string& file_name) const {
-  std::cout<<"HERE : "<<file_name<<std::endl;
   png::image<png::rgb_pixel> image(file_name);
-  std::cout<<"PROBLEM IS HERE"<<std::endl;
   ImageData image_data;
   image_data.max_val = 255;
   image_data.cols = image.get_width();

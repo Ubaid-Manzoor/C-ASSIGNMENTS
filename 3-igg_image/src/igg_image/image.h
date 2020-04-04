@@ -40,9 +40,21 @@ class Image {
   bool ReadFromDisk(const string& file_name);
   void WriteToDisk(const string& file_name);
 
+  // Data Conversion Functions
   std::vector<Pixel> convertToVectorOfPixels(std::vector< std::vector<int> >);
   std::vector< std::vector<int> >  convertToVectorsOfRGB(std::vector<Pixel>);
 
+  //Image Resizing Fucntions
+  void DownScale(int scale);
+  void UpScale(int scale);
+
+  // FUNDTIONS TO CHANGE STRATEGY
+  // void changeStragy(const igg::IoStrategy& new_strategy){
+  //   io_strategy = new_strategy;
+  // }
+
+  // Helper Functions
+  int positionFromCoordinates(int, int, int) const;
 
  private:
 

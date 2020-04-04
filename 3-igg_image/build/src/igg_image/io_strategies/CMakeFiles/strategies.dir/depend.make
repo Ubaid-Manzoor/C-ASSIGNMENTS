@@ -9,3 +9,7 @@ src/igg_image/io_strategies/CMakeFiles/strategies.dir/png_strategy.cpp.o: ../src
 src/igg_image/io_strategies/CMakeFiles/strategies.dir/png_strategy.cpp.o: ../src/igg_image/io_strategies/strategy.h
 src/igg_image/io_strategies/CMakeFiles/strategies.dir/png_strategy.cpp.o: ../src/igg_image/io_strategies/png_strategy.cpp
 
+src/igg_image/io_strategies/CMakeFiles/strategies.dir/ppm_strategy.cpp.o: ../src/igg_image/io_strategies/strategy.h
+src/igg_image/io_strategies/CMakeFiles/strategies.dir/ppm_strategy.cpp.o: ../src/igg_image/io_strategies/ppm_strategy.cpp
+src/igg_image/io_strategies/CMakeFiles/strategies.dir/ppm_strategy.cpp.o: ../src/igg_image/io_strategies/ppm_strategy.h
+

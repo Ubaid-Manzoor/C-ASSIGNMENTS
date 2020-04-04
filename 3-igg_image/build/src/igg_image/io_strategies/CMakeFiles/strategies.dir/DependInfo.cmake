@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/3-igg_image/src/igg_image/io_strategies/dummy_strategy.cpp" "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/3-igg_image/build/src/igg_image/io_strategies/CMakeFiles/strategies.dir/dummy_strategy.cpp.o"
   "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/3-igg_image/src/igg_image/io_strategies/png_strategy.cpp" "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/3-igg_image/build/src/igg_image/io_strategies/CMakeFiles/strategies.dir/png_strategy.cpp.o"
+  "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/3-igg_image/src/igg_image/io_strategies/ppm_strategy.cpp" "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/3-igg_image/build/src/igg_image/io_strategies/CMakeFiles/strategies.dir/ppm_strategy.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

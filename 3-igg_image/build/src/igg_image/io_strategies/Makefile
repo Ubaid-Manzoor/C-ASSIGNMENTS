@@ -179,6 +179,33 @@ png_strategy.cpp.s:
 	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/3-igg_image/build" && $(MAKE) -f src/igg_image/io_strategies/CMakeFiles/strategies.dir/build.make src/igg_image/io_strategies/CMakeFiles/strategies.dir/png_strategy.cpp.s
 .PHONY : png_strategy.cpp.s
 
+ppm_strategy.o: ppm_strategy.cpp.o
+
+.PHONY : ppm_strategy.o
+
+# target to build an object file
+ppm_strategy.cpp.o:
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/3-igg_image/build" && $(MAKE) -f src/igg_image/io_strategies/CMakeFiles/strategies.dir/build.make src/igg_image/io_strategies/CMakeFiles/strategies.dir/ppm_strategy.cpp.o
+.PHONY : ppm_strategy.cpp.o
+
+ppm_strategy.i: ppm_strategy.cpp.i
+
+.PHONY : ppm_strategy.i
+
+# target to preprocess a source file
+ppm_strategy.cpp.i:
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/3-igg_image/build" && $(MAKE) -f src/igg_image/io_strategies/CMakeFiles/strategies.dir/build.make src/igg_image/io_strategies/CMakeFiles/strategies.dir/ppm_strategy.cpp.i
+.PHONY : ppm_strategy.cpp.i
+
+ppm_strategy.s: ppm_strategy.cpp.s
+
+.PHONY : ppm_strategy.s
+
+# target to generate assembly for a file
+ppm_strategy.cpp.s:
+	cd "/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/3-igg_image/build" && $(MAKE) -f src/igg_image/io_strategies/CMakeFiles/strategies.dir/build.make src/igg_image/io_strategies/CMakeFiles/strategies.dir/ppm_strategy.cpp.s
+.PHONY : ppm_strategy.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -194,6 +221,9 @@ help:
 	@echo "... png_strategy.o"
 	@echo "... png_strategy.i"
 	@echo "... png_strategy.s"
+	@echo "... ppm_strategy.o"
+	@echo "... ppm_strategy.i"
+	@echo "... ppm_strategy.s"
 .PHONY : help
 
 

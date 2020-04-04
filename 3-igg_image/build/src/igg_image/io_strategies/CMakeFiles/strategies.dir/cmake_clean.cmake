@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/strategies.dir/png_strategy.cpp.o"
   "CMakeFiles/strategies.dir/dummy_strategy.cpp.o"
+  "CMakeFiles/strategies.dir/ppm_strategy.cpp.o"
   "../../../../lib/libstrategies.pdb"
   "../../../../lib/libstrategies.a"
 )

@@ -40,3 +40,21 @@ string
 vector
 -
 
+/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/3-igg_image/src/igg_image/io_strategies/ppm_strategy.cpp
+iostream
+-
+fstream
+-
+string
+-
+vector
+-
+ppm_strategy.h
+/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/3-igg_image/src/igg_image/io_strategies/ppm_strategy.h
+
+/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/3-igg_image/src/igg_image/io_strategies/ppm_strategy.h
+string
+-
+igg_image/io_strategies/strategy.h
+/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/3-igg_image/src/igg_image/io_strategies/igg_image/io_strategies/strategy.h
+
