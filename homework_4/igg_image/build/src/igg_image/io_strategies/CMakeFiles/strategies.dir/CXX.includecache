@@ -1,0 +1,60 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/igg_image/io_strategies/dummy_strategy.h
+string
+-
+igg_image/io_strategies/strategy.h
+../src/igg_image/io_strategies/igg_image/io_strategies/strategy.h
+
+../src/igg_image/io_strategies/png_strategy.h
+string
+-
+png++/png.hpp
+-
+igg_image/io_strategies/strategy.h
+../src/igg_image/io_strategies/igg_image/io_strategies/strategy.h
+
+../src/igg_image/io_strategies/strategy.h
+string
+-
+vector
+-
+
+/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/homework_4/igg_image/src/igg_image/io_strategies/dummy_strategy.cpp
+string
+-
+igg_image/io_strategies/dummy_strategy.h
+/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/homework_4/igg_image/src/igg_image/io_strategies/igg_image/io_strategies/dummy_strategy.h
+
+/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/homework_4/igg_image/src/igg_image/io_strategies/png_strategy.cpp
+igg_image/io_strategies/png_strategy.h
+/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/homework_4/igg_image/src/igg_image/io_strategies/igg_image/io_strategies/png_strategy.h
+string
+-
+vector
+-
+
+/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/homework_4/igg_image/src/igg_image/io_strategies/ppm_strategy.cpp
+iostream
+-
+fstream
+-
+string
+-
+vector
+-
+ppm_strategy.h
+/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/homework_4/igg_image/src/igg_image/io_strategies/ppm_strategy.h
+
+/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/homework_4/igg_image/src/igg_image/io_strategies/ppm_strategy.h
+string
+-
+igg_image/io_strategies/strategy.h
+/home/ubaid/Desktop/MyDrive/Computer Science/Programming Languages/Modern C++ 2018/c++_projects/HomeWorks/homework_4/igg_image/src/igg_image/io_strategies/igg_image/io_strategies/strategy.h
+
